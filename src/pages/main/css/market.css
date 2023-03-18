@@ -1,0 +1,33 @@
+.market-item {
+    width: 100px;
+    height: 200px;
+    background-color: #2b2b2b;
+    border-radius: 1vh;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: border-color 0.25s;
+}
+
+.market-item:hover {
+    border-color: #646cff;
+}
+
+.market-container {
+    display: inline-flex;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+
+.market-image {
+    width: 90px;
+    height: 60px;
+}
+
+.market-p {
+    font-size: 1.5vh;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

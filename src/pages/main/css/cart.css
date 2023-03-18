@@ -1,0 +1,11 @@
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-total {
+    background-color: rgb(131, 131, 99);
+    border-radius: 10vh;
+}

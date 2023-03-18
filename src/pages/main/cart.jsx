@@ -15,6 +15,7 @@ function Cart() {
 
     function handleDelete() {
         localStorage.clear()
+        console.log("cleared")
 
         setRefresh(!refresh)
     }
